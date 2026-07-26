@@ -49,7 +49,7 @@ def main() -> None:
         text = (
             f"🧹 今日打扫值日 | {date_str} {weekday_cn}\n"
             f"今日值日队伍:【{team}】\n"
-            f"请 {team} 小队长安排 1 名司机完成仓库清扫,收工前找前台确认签退。"
+            f"请 {team} 小队长安排 1 名司机完成仓库清扫,收工前找前台确认完成度。"
         )
 
     payload = {"msg_type": "text", "content": {"text": text}}
