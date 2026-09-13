@@ -3,7 +3,7 @@ name: Daily Cleaning Duty Notify
 on:
   schedule:
     # 11:30 UTC = 4:30 AM Los Angeles (PDT)
-    - cron: "37 11 * * *"   # 11:37 UTC = 4:37 AM PDT / 3:37 AM PST
+    - cron: "1 7 * * *" 
 
   workflow_dispatch:
 
